@@ -26,6 +26,7 @@ import {
 export class MoreHTTPRequests {
   data: Object;
   loading: boolean;
+Check: boolean;
 
   constructor(public http: Http) {
   }
